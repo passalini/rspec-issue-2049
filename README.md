@@ -1,24 +1,8 @@
-# README
+# [rspec-issue-2049](https://github.com/rspec/rspec-rails/issues/2049) [![CircleCI](https://circleci.com/gh/passalini/rspec-issue-2049.svg?style=svg)](https://circleci.com/gh/passalini/rspec-issue-2049)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was created only to report a bug in rspec-rails. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# To run the project:
+- bundle install
+- rake db:create db:migrate 
+- bundle exec rspec
