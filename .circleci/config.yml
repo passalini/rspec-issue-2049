@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
-      command: /sbin/init
+        command: /sbin/init
 
     working_directory: ~/passalini/rspec-issue-2049
 
